@@ -14,7 +14,7 @@ export default function Navigation() {
 
         <div className="flex gap-2">
           <button
-            onClick={() => router.push('home')}
+            onClick={() => router.push('/home')}
             className="flex items-center gap-2"
           >
             <Home size={18} />
@@ -22,7 +22,7 @@ export default function Navigation() {
           </button>
 
           <button
-            onClick={() => router.push('people')}
+            onClick={() => router.push('/people')}
             className="flex items-center gap-2"
           >
             <Users size={18} />
@@ -30,7 +30,7 @@ export default function Navigation() {
           </button>
 
           <button
-            onClick={() => router.push('logs')}
+            onClick={() => router.push('/logs')}
             className="flex items-center gap-2"
           >
             <BookOpen size={18} />
